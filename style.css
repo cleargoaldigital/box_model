@@ -1,0 +1,33 @@
+*{
+   border: 2px solid rgb(238, 8, 8);
+   margin: 0;
+   padding: 0;
+ }
+
+ h1{
+    text-align: center;
+    padding: 5px auto;
+    background: blue;
+    color: aliceblue;
+ }
+
+ main{
+    padding: 5px auto;
+    width: 70%;
+    margin: auto;
+ }
+
+ .box_wrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100%;
+    margin: auto;
+    gap: 5px;
+    /* padding: 5px; */
+   }
+
+ .box{
+    height: 80px;
+    width: 80px;
+    background: blanchedalmond;
+ }
