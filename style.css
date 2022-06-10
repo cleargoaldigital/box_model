@@ -1,10 +1,15 @@
-*{
-   border: 2px solid rgb(238, 8, 8);
-   margin: 0;
-   padding: 0;
+ /* *, 
+ *::before, 
+ *::after {
+   box-sizing: border-box;
  }
 
- h1{
+ html {
+   box-sizing: inherit;
+   border: 2px solid rgb(238, 8, 8);
+ } */
+
+h1{
     text-align: center;
     padding: 5px auto;
     background: blue;
@@ -24,10 +29,24 @@
     margin: auto;
     gap: 5px;
     /* padding: 5px; */
+    background-size: contain;
    }
 
  .box{
     height: 80px;
     width: 80px;
     background: blanchedalmond;
+ }
+
+ .boxa {
+   border: 5px solid rebeccapurple;
+   background-color: lightgray;
+   padding: 40px;
+   margin: 40px;
+   width: 300px;
+   height: 150px;
+ }
+ 
+ .alternate {
+   box-sizing: border-box;
  }
